@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date:08/10/2025
 
 ## AIM:
  To design a website to calculate to the body mass index(BMI) in the server side. 
@@ -110,9 +110,12 @@ bmi.html
 </head>
 
 <body>
+    
     <div class="edge">
         <div class="box">
-            <h1>BMI-CALCULATOR</h1>
+            <h1 bgcolor="lime">BMI-CALCULATOR</h1>
+            <h1>Vivek christo A</h1>
+            <h3>   25013444    </h3>
             <form method="POST">
                 {%csrf_token %}
                 <div class="formelt">
@@ -169,11 +172,12 @@ def calculate_bmi(request):
 ```
 
 ## SERVER SIDE PROCESSING:
-![alt text](<Screenshot (41).png>)
+![alt text](<Screenshot (56).png>)
 
 
 ## HOMEPAGE:
-![alt text](<Screenshot (42).png>)
+![alt text](<Screenshot (57).png>)
+
 
 
 ## RESULT:
